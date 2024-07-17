@@ -1,6 +1,6 @@
 package ex_140724;
 
-public class Lab003 {
+public class Lab007 {
     public static void main(String[] args) {
         //  Data Types
         //Primitive Data Type
