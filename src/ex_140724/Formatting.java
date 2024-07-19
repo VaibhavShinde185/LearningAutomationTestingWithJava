@@ -1,6 +1,6 @@
 package ex_140724;
 
-public class Lab015 {
+public class Formatting {
     public static void main(String[] args) {
         // Formatting
         int age = 98;

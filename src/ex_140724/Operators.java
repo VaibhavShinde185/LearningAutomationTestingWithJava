@@ -7,12 +7,12 @@ public class Operators {
         double result=c%d;
         System.out.println(result);
 
-        // ✅ Operators
+        //Operators
         int age = 65; // 10000001 -> switch off/ on
         // = Assignment Operator - Assign the value literal to the ref of data type
 
-        // Arithmetic Operator +,-,/,*,
-        // Modulus Operator %
+        //Arithmetic Operator +,-,/,*,%
+
         int a = 10;
         int b = 23;
         System.out.println(a+b);
@@ -21,7 +21,7 @@ public class Operators {
         System.out.println(a/b);
         System.out.println(a%b); // Remainders
 
-        // Unary Operator
+        //Unary Operator
         age = +65;  //unary plus
         int lambo = -1; //unary minus
         System.out.println(age);
@@ -32,18 +32,36 @@ public class Operators {
         String lastname = "SHINDE";
         System.out.println(firstname + " " + lastname);
 
-        // Compound Assignment Operators: += , -=, /=, *= . %=, += ->
+        //Compound Assignment Operators: += , -=, /=, *= . %=, += ->
         a = 10;
 
-        a+=10; // a = a+10
-        a-=10; // a = a-10
-        a/=10; // a = a/10
-        a*=10; // a = a*10
+        a+=10; // a = a+10   = 20
+        a-=10; // a = a-10   = 10
+        a/=10; // a = a/10   = 1
+        a*=10; // a = a*10   = 10
 
-        // Relational Operators -> boolean (true or false), >, < >=,<=, == , != ( ! = )
+        //Relational Operators -> boolean (true or false), >, < >=,<=, == , != ( ! = )
         a = 10;
         b = 20;
         int sum = a+b; // operand a, b , operator =, +
+
+        //Logical Operator - and, or
+
+        //Boolean operator - true, false
+
+        //Ternary Operator
+
+
+        // new operator - OOPs concept
+        // instanceOf operator - OOPs concept
+        // Bitwise operator - not important for automation testing
+
+
+
+        // data_type variable_name(identifier) = variable _value(literals)
+        // Unary = Only 1 operand, operator
+        //  age - operand, value - unary plus, = operator
+        //  lambo - operand, value - unary minus, = operator
 
 
     }
