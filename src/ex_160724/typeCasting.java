@@ -1,4 +1,4 @@
-package ex_200724;
+package ex_160724;
 
 public class typeCasting {
     public static void main(String[] args) {
