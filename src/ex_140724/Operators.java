@@ -45,6 +45,21 @@ public class Operators {
         b = 20;
         int sum = a+b; // operand a, b , operator =, +
 
+        //Increment ++ and Decrement -- Operator : Pre, Post
+
+        // pre - increment ++operand - value is incremented first and then stored in the result.
+        int x = 10;
+        int y = ++x; // x = x+1;
+        // Exp = 11 , a = 11
+        System.out.println(x);
+        System.out.println(y);
+
+        // POST - value is stored in the result and incremented later
+        int m = 10;
+        int result_m = m++;
+        System.out.println(m);
+        System.out.println(result_m);
+
         //Logical Operator - and, or
 
         //Boolean operator - true, false
