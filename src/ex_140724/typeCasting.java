@@ -24,5 +24,17 @@ public class typeCasting {
         int total_price = course+(int)GST; // Explicit narrowing - REAL time - money loss
         System.out.println(total_price);
 
+        /* Implicit casting is automatically done by the Java compiler. It happens when you are converting a
+        smaller data type to a larger data type, also known as widening conversion. For example, converting
+        an int to a long or a float to a double. This type of casting is safe and does not lead to data loss. */
+
+        /* Explicit casting is done manually by the programmer. It happens when you are converting
+        a larger data type to a smaller data type, also known as narrowing conversion. This type of casting
+        can lead to data loss if the value of the larger data type is out of the range of the smaller data type.
+         */
+
+        /* In Java, you can also cast objects of different classes that are part of the same inheritance hierarchy. The casting can be:
+        Upcasting: Casting a subclass object to a superclass type.
+        Downcasting: Casting a superclass object to a subclass type. */
     }
 }
