@@ -1,8 +1,4 @@
-package ex_130724;
-
-import java.sql.SQLOutput;
-
-public class Lab_A {
+public class practice_Lab {
     public static void main(String[] args) {
         double sq = Math.sqrt(2);
         int result = Math.max(10,23);
