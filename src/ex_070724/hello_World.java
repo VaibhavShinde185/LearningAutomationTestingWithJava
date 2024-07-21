@@ -1,4 +1,4 @@
-package ex_090724;
+package ex_070724;
 
 public class hello_World {
     public static void main(String[] args) {

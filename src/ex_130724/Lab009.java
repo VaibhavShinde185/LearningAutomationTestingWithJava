@@ -1,4 +1,4 @@
-package ex_140724;
+package ex_130724;
 
 public class Lab009 {
     public static void main(String[] args) {

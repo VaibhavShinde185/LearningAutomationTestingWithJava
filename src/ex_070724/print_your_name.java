@@ -1,4 +1,4 @@
-package ex_090724;
+package ex_070724;
 
 public class print_your_name {
     public static void main(String[] args) {

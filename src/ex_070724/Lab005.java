@@ -1,4 +1,4 @@
-package ex_090724;
+package ex_070724;
 
 public class Lab005 {
     // Can I run class without a main method?

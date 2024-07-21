@@ -1,4 +1,4 @@
-package ex_140724;
+package ex_130724;
 
 public class final_enum_keyword {
     public static void main(String[] args) {
