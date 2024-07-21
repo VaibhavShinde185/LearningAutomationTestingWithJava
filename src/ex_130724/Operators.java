@@ -59,13 +59,21 @@ public class Operators {
         int result_m = m++;
         System.out.println(m);
         System.out.println(result_m);
+        System.out.println("\n");
 
         //Logical Operator - and, or
 
         //Boolean operator - true, false
 
         //Ternary Operator
+        //  ? if true do this : ele do that
+        int newage = 14;
+        String eligibility;
 
+        // Using the ternary operator to determine voting eligibility
+        eligibility = (newage >= 18) ? "Eligible to vote" : "Not eligible to vote";
+
+        System.out.println("Person is " + eligibility);
 
         // new operator - OOPs concept
         // instanceOf operator - OOPs concept

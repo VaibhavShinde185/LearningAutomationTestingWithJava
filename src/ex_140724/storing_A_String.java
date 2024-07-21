@@ -60,8 +60,29 @@ public class storing_A_String {
 
         System.out.println(org1 == org2); // Check for the Ref  - false, different objects
         System.out.println(org1.equals(org2)); // Check for the Content - true, same content
+        System.out.println("\n");
 
 //        The "==" operator checks if two references point to the same object (reference equality).
 //        The "equals()" method checks if the content of two objects is the same (content equality).
+
+        String password  = "VAIBHAV@123";
+        String pass_u = password.toLowerCase();
+        System.out.println(pass_u + "\n");
+        // pass_u == password
+        System.out.println(pass_u == password);
+        System.out.println(pass_u.equals(password));
+        System.out.println(pass_u.equalsIgnoreCase(password));
+        //Vaibhav@123 =  vaibhav@123  = VAibhav@123 = VaiBhaV@123
+        System.out.println("\n");
+
+        System.out.println(password.substring(0,3));
+        System.out.println(password.indexOf('V'));  //if char does not exist in "VAIBHAV@123", this will return -1
+        System.out.println(password.length());
+        System.out.println("\n");
+
+        double sq = Math.sqrt(2);
+        System.out.println(sq);
+        int result = Math.max(10,23);
+        System.out.println(result);
     }
 }
