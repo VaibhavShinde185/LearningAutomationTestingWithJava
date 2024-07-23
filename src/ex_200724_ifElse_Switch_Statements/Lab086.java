@@ -1,5 +1,6 @@
 package ex_200724_ifElse_Switch_Statements;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Lab086 {
@@ -38,5 +39,6 @@ public class Lab086 {
 
         System.out.println("--- Outside the switch block ---");
 
+        }
+
     }
-}

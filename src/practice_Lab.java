@@ -5,40 +5,25 @@ public class practice_Lab {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a char, I will tell you, If it is a vowel or not!");
-        char user_input = sc.next().charAt(0);
-        System.out.println(user_input);
+        System.out.println("Enter a character:");
+        var user_input = sc.next();
 
-        switch (user_input) {
-            case 'a':
-                System.out.println("Vowel");
-                break;
-            case 'e':
-                System.out.println("Vowel");
-                break;
-            case 'i':
-                System.out.println("Vowel");
-                break;
-            case 'o':
-                System.out.println("Vowel");
-                break;
-            case 'u':
-                System.out.println("Vowel");
-                break;
-            default:
-                System.out.println("Not a Vowel, It it Consonant");
 
+        if (user_input.length() == 1){
+            char ch = user_input.charAt(0);
+
+            if (ch =='a' || ch =='e' || ch =='i' || ch =='o'|| ch =='u' ||
+            ch =='A' || ch =='E' || ch =='I' || ch =='O' || ch == 'U');
+            System.out.println(user_input +" is a vowel");
+        } else {
+            System.out.println(user_input + " is a consonant.");
         }
 
-        switch (user_input){
-            case 'a','i','o','u','e':
-                System.out.println("Vowel");
-                break;
-            default:
-                System.out.println("Not a Vowel, It it Consonant");
-
         }
-    }
 }
 
+
+// Lab095 need to check in recording, 96,
+
+// Lab100, 102,
 

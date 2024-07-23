@@ -9,15 +9,15 @@ import java.util.Scanner;
 public class Lab084 {
     public static void main(String[] args) {
 
-     Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter a 1st number:");
-        int number1 = sc.nextInt();
-
-        System.out.println("Enter a 2nd number:");
-        int number2 = sc.nextInt();
-
-        System.out.println("Maximum number is " + Math.max(number1, number2));
+//     Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("Enter a 1st number:");
+//        int number1 = sc.nextInt();
+//
+//        System.out.println("Enter a 2nd number:");
+//        int number2 = sc.nextInt();
+//
+//        System.out.println("Maximum number is " + Math.max(number1, number2));
 
 //        Scanner sc = new Scanner(System.in);
 //
@@ -32,5 +32,15 @@ public class Lab084 {
 //        } else {
 //            System.out.println("Maximum number is " + number2);
 //        }
+
+        Scanner sc = new Scanner (System.in);
+
+        System.out.println("Enter a number1:");
+        int number1 = sc.nextInt();
+        System.out.println("Enter a number2:");
+        int number2 = sc.nextInt();
+
+        int max = (number1 > number2) ? number1 : number2;
+        System.out.println(max + " is the maximum number.");
     }
 }
