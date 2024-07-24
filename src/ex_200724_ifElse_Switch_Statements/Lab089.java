@@ -10,6 +10,8 @@ public class Lab089 {
             case 001 -> System.out.println("It is a laptop!");
             case 002 -> System.out.println("It is a desktop!");
             case 003, 004 -> System.out.println("It is a mobile phone!");
+
+            // Arrow operator in switch statement does not require break
         }
     }
 }

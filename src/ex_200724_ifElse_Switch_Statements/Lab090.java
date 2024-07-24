@@ -16,4 +16,5 @@ public class Lab090 {
     }
 }
 
-// yield Keyword:
+// yield Keyword: It is similar to return
+// yield Keyword does not require break
