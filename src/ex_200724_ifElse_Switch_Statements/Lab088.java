@@ -27,7 +27,7 @@ public class Lab088 {
 //                System.out.println("Vowel");
 //                break;
 //            default:
-//                System.out.println("Consonent");
+//                System.out.println("Consonant");
 //                break;
 //        }
 
@@ -45,19 +45,25 @@ public class Lab088 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a character:");
         var user_input = sc.next();
+        user_input = user_input.toLowerCase();
 
+        if ( user_input.length() == 1 ) {
+        char ch = user_input.charAt(0);
 
-        if (user_input.length() == 1){
-            char ch = user_input.charAt(0);
-
-            if (ch =='a' || ch =='e' || ch =='i' || ch =='o'|| ch =='u' ||
-                    ch =='A' || ch =='E' || ch =='I' || ch =='O' || ch == 'U');
-            System.out.println(user_input +" is a vowel");
+            if ( ch == 'a' || ch == 'e' || ch == 'i'  || ch == 'o' || ch == 'u') {
+                System.out.println(user_input + " is a vowel");
+            } else {
+                System.out.println(user_input + " is a consonant");
+            }
         } else {
-            System.out.println(user_input + " is a consonant.");
+            System.out.println("You entered a string");
         }
-    }
 
+        sc.close();
+
+
+        }
 
 }
+
 
