@@ -1,4 +1,4 @@
-package ex_210724;
+package ex_210724_loops;
 
 import java.util.Scanner;
 
