@@ -18,3 +18,14 @@ public class factorialNumber {
         System.out.println("Factorial of entered number is " + fact);
     }
 }
+
+// While loop
+
+//int n = 5;
+//int fact = 1;
+//int i = 1;
+//     while (i<=n){
+//fact = fact*i;
+//i++;
+//        }
+//        System.out.println(fact);
