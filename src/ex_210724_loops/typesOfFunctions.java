@@ -4,23 +4,39 @@ import java.util.jar.JarOutputStream;
 
 public class typesOfFunctions {
     public static void main(String[] args) {
-        function_type1();
-        System.out.println(" --------------- ");
+        A();
+        System.out.println("-----------------------------------------");
 
-        String name = function_type2();
+        String name = B();
         System.out.println(name);
-        System.out.println(" --------------- ");
+        System.out.println("------------------------------------------------------");
+
+        C("Hey! John");
+        System.out.println( " ----------------------------------------------------- ");
+
+        int sum = D(9,6);
+        System.out.println("result =" + sum);
+        System.out.println("-----------------------------------------------------");
+
     }
 
+    static void A(){
+        System.out.println("without parameter and return type");
+    }
 
-        //  1.Without Parameters and Without Return Type
-        static void function_type1() {
-            System.out.println("1.Without Parameters and Without Return Type");
-        }
-        // 2.Without Parameters but With Return Type
-        static String function_type2() {
-            System.out.println("2.Without Parameters but With Return Type");
-            return "Jack";
+    static String B(){
+        System.out.println("without parameter but with return type");
+        return "Jack";
+    }
+
+    static void C(String name){
+        System.out.println("With parameter but without return type");
+        System.out.println(name);
+    }
+
+    static int D(int a, int b){
+        System.out.println("with params and return type");
+        return a+b;
         }
 
 }
