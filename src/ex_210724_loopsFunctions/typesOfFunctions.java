@@ -1,6 +1,4 @@
-package ex_210724_loops;
-import java.util.Scanner;
-import java.util.jar.JarOutputStream;
+package ex_210724_loopsFunctions;
 
 public class typesOfFunctions {
     public static void main(String[] args) {
