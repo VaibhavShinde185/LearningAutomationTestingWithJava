@@ -3,7 +3,7 @@ package ex_280724_classObject;
 public class buildingBluePrint2 {
     public static void main(String[] args) {
 
-        //  Class - Attribute / properties - data Types - primitve or non primitive.
+        //  Class - Attribute / properties - data Types - primitive or non primitive.
         // Class - Behaviour /Methods - functions -
 
         // object - real entity - class -
@@ -23,7 +23,7 @@ public class buildingBluePrint2 {
         prestige.name = "Prestige Pvt Builder";
         prestige.noOfRooms = 100;
 
-        prestige.useLift();
+        prestige.activities();
 
 
     }
