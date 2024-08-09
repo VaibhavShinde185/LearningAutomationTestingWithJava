@@ -5,9 +5,9 @@ public class lab162 {
         //Constructor
 //        1. default
 //        2. parameterized
-//        3. copy
-//            -> this and super keyword
-//            -> static keyword and static method
+//        3. copy  --> not useful for AT
+//       -> this and super keyword
+//       -> static keyword and static method
 
 //        -> What is a constructor?
 //          It is invoked at the time of object creation.

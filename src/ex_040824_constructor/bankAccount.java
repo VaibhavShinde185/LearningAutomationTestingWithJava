@@ -1,9 +1,9 @@
 package ex_040824_constructor;
 
 public class bankAccount {
-    String bankName;
-    int balance;
-    String bankCode;
+    public String bankName;
+    public int balance;
+    public String bankCode;
 
     //DC
     public bankAccount() {
