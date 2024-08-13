@@ -5,7 +5,10 @@ import org.w3c.dom.ls.LSOutput;
 import javax.crypto.spec.PSource;
 
 public class superKeywoord2 {
-
+    public static void main(String[] args) {
+        student s = new student();
+        s.display();
+    }
 }
 
 class student extends person{
@@ -13,7 +16,8 @@ class student extends person{
         System.out.println("I am student!");
     }
     void display(){
-        super.message();
+        //super.message();
+        this.message();
     }
 }
 
