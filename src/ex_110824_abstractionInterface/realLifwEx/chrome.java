@@ -8,13 +8,13 @@ public class chrome extends baseClass {
     }
 
     @Override
-    String closeBrowser(String browser) {
-        System.out.println("Closing the Chrome browser \n");
+    String closeBrowser(String abcd) {
+        System.out.println("Closing the Chrome browser ");
         return "Browser is closed";
     }
 
     @Override
     void takeScreenShot() {
-        System.out.println("Okay Taking Screenshot of the chrome browser ");
+        System.out.println("\n" + "Okay Taking Screenshot of the chrome browser ");
     }
 }

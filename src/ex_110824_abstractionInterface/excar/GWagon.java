@@ -25,7 +25,7 @@ public class GWagon extends engine{
 
     @Override
     void partGearBox() {
-        System.out.println("G - Wagon");
+        System.out.println("G - Wagon Gear Box");
     }
 
     @Override

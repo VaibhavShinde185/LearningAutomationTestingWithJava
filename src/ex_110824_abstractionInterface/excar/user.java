@@ -12,10 +12,10 @@ public class user {
         i.start();
         System.out.println();
 
-        safari s = new safari();
-        System.out.println("Driving Tata Safari");
-        s.drive();
-        System.out.println();
+//        safari s = new safari();
+//        System.out.println("Driving Tata Safari");
+//        s.drive();
+//        System.out.println();
 
     }
 }
