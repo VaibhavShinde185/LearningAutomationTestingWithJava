@@ -11,7 +11,7 @@ public class user {
 
         fireFox f = new fireFox();
         f.openBrowser();
-        f.closeBrowser("zzz");
+        f.closeBrowser("xxx");
         f.takeScreenShot();
 
     }
