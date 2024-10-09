@@ -2,7 +2,7 @@
 
 Author: Vaibhav Shinde
 
-This repository contains the source code for the excercise that I have done in the automation testing batch
+This repository contains the source code for the exercises that I have done in the automation testing batch
 - Core Java
 - OOPs
 - Collection Frameworks
