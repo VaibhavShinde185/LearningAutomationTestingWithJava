@@ -9,7 +9,7 @@ public class lab004 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a Number: ");
         int a = sc.nextInt();
-
+        System.out.println("Table of " + a);
         for (int i = 1; i < 11 ; i++) {
             int b = a * i;
             System.out.println(b);

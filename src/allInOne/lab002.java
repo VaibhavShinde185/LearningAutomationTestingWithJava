@@ -10,7 +10,7 @@ public class lab002 {
         System.out.println("Enter a first number ");
         int a = sc.nextInt();
 
-        System.out.println("Enter a first number ");
+        System.out.println("Enter a second number ");
         int b = sc.nextInt();
 
         int sum = a+b;

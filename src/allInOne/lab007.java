@@ -13,20 +13,20 @@ public class lab007 {
         System.out.println("Enter a year, i will tell you weather it is leap year or not");
         int year = sc.nextInt();
 
-//        if (year % 4 == 0 && year % 100 != 0 ){
-//            System.out.println(year + " is a leap year");
-//        } else if (year % 400 == 0) {
-//            System.out.println(year + " is a leap year");
-//        } else {
-//            System.out.println(year + " is not a leap year");
-//        }
+        if (year % 4 == 0 && year % 100 != 0 ){
+            System.out.println(year + " is a leap year");
+        } else if (year % 400 == 0) {
+            System.out.println(year + " is a leap year");
+        } else {
+            System.out.println(year + " is not a leap year");
+        }
 
-        // using ternary operator
-        String result = (year % 100 == 0) ?
-                ((year % 400 == 0) ? "Leap Year" : "Not a Leap Year")
-                : ((year % 4 == 0) ? "Leap Year" : "Not a Leap Year");
-
-        System.out.println(year + " is " + result);
+//        // using ternary operator
+//        String result = (year % 100 == 0) ?
+//                ((year % 400 == 0) ? "Leap Year" : "Not a Leap Year")
+//                : ((year % 4 == 0) ? "Leap Year" : "Not a Leap Year");
+//
+//        System.out.println(year + " is " + result);
 
 
     }
