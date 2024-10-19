@@ -7,17 +7,13 @@ public class Formatting {
         System.out.println("Your age is -> " + age);
         // %d ->  any integer - byte, short, int and long
         // %s -> String
-        // %c -> char
+        // %c -> char 
         // %f -> float and double
         System.out.printf("Your age is -> %d",age);
 
         int n = 9;
         System.out.println();
         System.out.printf("%d",n);
-
-
-
-
 
     }
 }

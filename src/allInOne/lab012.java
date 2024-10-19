@@ -9,6 +9,12 @@ package allInOne;
 
 public class lab012 {
 
+    public static void main(String[] args) {
+        int a = 10;
+        double b = 78;
 
+        System.out.println(a+b);
+
+    }
 
 }
