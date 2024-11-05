@@ -21,7 +21,5 @@ public class lab002 {
         System.out.println("Subtraction is = " + (a-b));
         System.out.println("The division of entered numbers is " + div);
 
-
-
     }
 }

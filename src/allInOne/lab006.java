@@ -1,5 +1,6 @@
 package allInOne;
 
+import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class lab006 {
@@ -26,6 +27,20 @@ public class lab006 {
             grade = 'F';
         }
         System.out.println("Your grade is " + grade);
+
+//        char grade;
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your marks. I will tell you your grades.");
+//        int marks = sc.nextInt();
+//
+//        if (marks >= 90 && marks <= 100){
+//            System.out.println("Your grade is 'A'. ");
+//        } else if (marks >= 80 && marks <= 89) {
+//            System.out.println("Your grade is 'B'. ");
+//        }
+
+
+
         }
     }
 
