@@ -11,9 +11,13 @@ public class Formatting {
         // %f -> float and double
         System.out.printf("Your age is -> %d",age);
 
-        int n = 9;
+        float n = 9.1235f;
         System.out.println();
-        System.out.printf("%d",n);
+        System.out.printf("%f",n);
+        System.out.printf("\n");
+
+        String name = "Vaibhav";
+        System.out.printf("Your name is %s",name);
 
     }
 }
