@@ -67,7 +67,7 @@ public class Operators {
 
         //Ternary Operator
         //  ? if true do this : ele do that
-        int newage = 14;
+        int newage = 19;
         String eligibility;
 
         // Using the ternary operator to determine voting eligibility
