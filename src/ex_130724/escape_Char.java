@@ -9,5 +9,11 @@ public class escape_Char {
         char c3 = '\r'; // Backlash, delete 1 word
 
         System.out.println("Vaibhav"+c+"Shinde");
+        System.out.println("Vaibhav"+"\t"+"Shinde");
+        System.out.println("Vaibhav"+"\b"+" Shinde");
+        System.out.println("Vaibhav"+"\r"+" Shinde");
+
+        String str = null;
+        System.out.println(str);
     }
 }

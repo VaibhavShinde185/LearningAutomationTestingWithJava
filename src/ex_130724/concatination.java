@@ -2,9 +2,9 @@ package ex_130724;
 
 public class concatination {
     public static void main(String[] args) {
-//        int a = 10;
-//        int b= 34;
-//        System.out.println(a+b);
+        int a = 10;
+        int b= 34;
+        System.out.println(a+b);
 //
 //        String s1 = "PRamod";
 //        String s2 = "Dutta";

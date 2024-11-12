@@ -30,7 +30,7 @@ public class Operators {
         //Concatination
         String firstname = "VAIBHAV";
         String lastname = "SHINDE";
-        System.out.println(firstname + " " + lastname);
+        System.out.println(firstname + "\n" + lastname);
 
         //Compound Assignment Operators: += , -=, /=, *= . %=, += ->
         a = 10;
