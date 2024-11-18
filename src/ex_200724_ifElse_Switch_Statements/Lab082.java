@@ -32,7 +32,7 @@ public class Lab082 {
         System.out.print("Enter your name:");
         String name = scanner.nextLine();
 
-        System.out.println("Enter your age:");
+        System.out.print("Enter your age:");
         int age = scanner.nextInt();
 
         var Elligibilty = (age >= 18) ? (name + " you are allowed to vote") : (name + " Go home");

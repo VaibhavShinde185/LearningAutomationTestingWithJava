@@ -2,32 +2,27 @@
 // Find the Max Salary, Min  in the Salary Array
 
 
+import java.lang.invoke.SwitchPoint;
 import java.util.Scanner;
 
 public class practice_Lab2 {
         public static void main(String[] args) {
 
-            Scanner sc = new Scanner(System.in);
-            int[][] a = new int[3][5];
+           /* Create a program that determines whether a given year is a leap year.
+           A leap year is divisible by 4, but not by 100 unless it is also divisible by 400. Use an if-else statement to make this determination.
+            */
 
-            // Input array elements
-            for (int i = 0; i < a.length; i++) {
-                for (int j = 0; j < a[i].length; j++) {
-                    System.out.print("Enter value for a[" + i + "][" + j + "]: ");
-                    a[i][j] = sc.nextInt();
-                }
+        Scanner sc = new Scanner(System.in);
+            System.out.println("Enter a year, it would tell you weather it is a leap year or not");
+            int year = sc.nextInt();
+
+            if ((year % 4 == 0 && year % 100 != 0 )|| year % 400 == 0 ){
+                System.out.println("Leap year");
+            } else {
+                System.out.println("Not a leap year");
             }
 
-            System.out.println("Entered array elements are:");
 
-            // Print array elements with indices
-            for (int i = 0; i < a.length; i++) {
-                for (int j = 0; j < a[i].length; j++) {
-                    // Highlighted part: printing index with the value
-                    System.out.print("a[" + i + "][" + j + "]=" + a[i][j] + "\t");
-                }
-                System.out.println();
-            }
         }
     }
 

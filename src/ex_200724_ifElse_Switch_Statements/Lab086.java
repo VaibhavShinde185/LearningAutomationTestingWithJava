@@ -7,7 +7,7 @@ public class Lab086 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the day from 1 to 7, Tell What day it its");
+        System.out.println("Enter the day from 1 to 7, Tell What day it is");
         int day = sc.nextInt();
 
         switch (day){
