@@ -4,16 +4,13 @@ import java.util.Scanner;
 public class practice_Lab {
     public static void main(String[] args) {
 
-        int intVal = 789;
-        double doubleVal = 123.45;
+       int a = 10;
+       int b = 20;
 
-        String strInt = String.valueOf(intVal);
-        String strDouble = String.valueOf(doubleVal);
+       int max = ( a < b ) ? b : a;
+        System.out.println(max);
 
-        System.out.println("String from Integer: " + strInt);
-        System.out.println("String from Double: " + strDouble);
-
-      }
+    }
     }
 
 

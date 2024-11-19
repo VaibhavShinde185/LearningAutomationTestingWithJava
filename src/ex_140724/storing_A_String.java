@@ -7,25 +7,25 @@ public class storing_A_String {
         // Both of them, actually save the name, name2 in different ways JVM
         // How they store the values in the JVM? -   SCP nad Heap - JVM
         // How many ways we can store a String - 2
-        // = new operator
+        // = new operator  - heap
         // = "SCP" // String Constant Pool
         // new - Objects(heap)
 
-        System.out.println(name);
-        System.out.println(name.toLowerCase());
-        System.out.println(name.length());
-        System.out.println(name.toUpperCase());
-        System.out.println(name.charAt(2));
-        System.out.println(name.charAt(0));
+        System.out.println(name);                               //VAIBHAV
+        System.out.println(name.toLowerCase());                 //vaibhav
+        System.out.println(name.length());                      //7
+        System.out.println(name.toUpperCase());                 //VAIBHAV
+        System.out.println(name.charAt(2));                     //I
+        System.out.println(name.charAt(0));                     //V
      //   System.out.println(name.charAt(7)); // Exception Index 10 out of bounds
-        System.out.println("\n");
+        System.out.println("\n");                               // new line
 
         String s1 = "Pramod";    // 1 , SCP
         s1 = "Amit";             // 2 , SCP
         s1 = "Dutta";            // 3 . SCP
         s1 = "Vaibhav";          // 4 . SCP
-        System.out.println(s1);
-        System.out.println("\n");
+        System.out.println(s1);                                 //Vaibhav
+        System.out.println("\n");                               //new line
 
         String A = new String("Vaibhav");
         String B = new String("Pramod");
@@ -33,10 +33,10 @@ public class storing_A_String {
         String C  = A; // (This doesn't mean this in the SCP) -: C -> A (heap area)
         //  2, heap  s3 -> s1 -> Pramod
 
-        System.out.println(A);
-        System.out.println(B);
-        System.out.println(C);
-        System.out.println("\n");
+        System.out.println(A);                  //Vaibhav
+        System.out.println(B);                  //Pramod
+        System.out.println(C);                  //Vaibhav
+        System.out.println("\n");               //new line
 
         String str1="Hello ";
         String str2="Guys";

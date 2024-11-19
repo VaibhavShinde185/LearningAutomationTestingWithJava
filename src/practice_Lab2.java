@@ -1,7 +1,3 @@
-// Find the Max in the Arrays
-// Find the Max Salary, Min  in the Salary Array
-
-
 import java.lang.invoke.SwitchPoint;
 import java.util.Scanner;
 
