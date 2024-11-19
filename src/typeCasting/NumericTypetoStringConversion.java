@@ -1,8 +1,9 @@
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
-import java.util.Scanner;
-public class practice_Lab {
+package typeCasting;
+
+public class NumericTypetoStringConversion {
     public static void main(String[] args) {
+
+        // Using String.valueOf.
 
         int intVal = 789;
         double doubleVal = 123.45;
@@ -13,7 +14,5 @@ public class practice_Lab {
         System.out.println("String from Integer: " + strInt);
         System.out.println("String from Double: " + strDouble);
 
-      }
     }
-
-
+}
