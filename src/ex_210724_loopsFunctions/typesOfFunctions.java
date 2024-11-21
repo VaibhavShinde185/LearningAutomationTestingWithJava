@@ -19,7 +19,7 @@ public class typesOfFunctions {
     }
 
     static void A(){
-        System.out.println("without parameter and return type");
+        System.out.println("without parameter and without return type");
     }
 
     static String B(){
