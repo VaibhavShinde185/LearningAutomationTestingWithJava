@@ -44,7 +44,7 @@ public class A {
         //new keyword explicitly creates a new String object in the heap memory, even if an identical string exists in the SCP.
         String org2 = new String("The Testing Academy"); // Heap area
 
-        System.out.println(org == org1);      // Check for the Ref -- true
+        System.out.println(org == org1);      // Check for the Ref. object -- true
         System.out.println(org.equals(org1)); // Check for the Content  -- true
         System.out.println(org == org2);      // false
         System.out.println(org1 == org2);     // false, different objects
