@@ -4,17 +4,19 @@ import java.util.Scanner;
 public class practice_Lab2 {
         public static void main(String[] args) {
 
-       int i = 0;
-       while (i<=10){
-           System.out.println(i);
-           i++;
-       }
+            int[][] array_2d = {
+                    {34, 1},
+                    {34, 2},
+                    {34, 3}
+            };
 
-    int j = 11;
-       do{
-           System.out.println(j);
-           j++;
-       } while (j<=20);
+            for (int i = 0; i < array_2d.length; i++) {
+                for (int j = 0; j < array_2d[i].length; j++) {
+                    System.out.print(array_2d[i][j]);
+                    System.out.print("\t");
+                }
+                System.out.println();
+            }
 
 
         }

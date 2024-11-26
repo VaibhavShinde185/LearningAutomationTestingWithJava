@@ -23,6 +23,9 @@ public class arrays_6 {
 //        Arrays.sort(salaries);
 //        System.out.println(salaries[salaries.length-1]);
 
+        Arrays.sort(salaries);
+        System.out.println(salaries[salaries.length-2]);
+
     }
 
 }

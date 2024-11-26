@@ -11,37 +11,40 @@ public class arrays_1 {
 
         //One dimensional array
         //length of array is 6 , -> index of array start from 0 to 5
-        System.out.println(marks_ssc.length);
-        System.out.println(marks_ssc[3]);
-        System.out.println(marks_ssc[0]);
+        System.out.println(marks_ssc.length);           //6
+        System.out.println(marks_ssc[3]);               //92
+        System.out.println(marks_ssc[0]);               //90
         System.out.println("----------------------------------------------------");
       //  System.out.println(marks[-1]); //ArrayIndexOutOfBoundsException
 
 
         //Method 2: -> new keyword
         int marks_hsc[] = new int[5];
-        System.out.println(marks_hsc[0]);
+        System.out.println(marks_hsc[0]);               //0
         System.out.println("----------------------------------------------------------");
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Entered number is at the 0 index of aaray list");       //user input for 0 index
         marks_hsc[0]=sc.nextInt();
-        System.out.println("Entered number is at the 0 index of aaray list");
+
+        System.out.println("Entered number is at the 1 index of aaray list");       //user input for index 1
         marks_hsc[1]=sc.nextInt();
-        System.out.println("Entered number is at the 1 index of aaray list");
+
         marks_hsc[2]=98;
         marks_hsc[3]=89;
         marks_hsc[4]=90;
 
-        System.out.println(marks_hsc[0]);
-        System.out.println(marks_hsc[1]);
-        System.out.println(marks_hsc[2]);
-        System.out.println(marks_hsc[3]);
-        System.out.println(marks_hsc[4]);
+        System.out.println(marks_hsc[0]);           //user input
+        System.out.println(marks_hsc[1]);           //user input
+        System.out.println(marks_hsc[2]);           //98
+        System.out.println(marks_hsc[3]);           //89
+        System.out.println(marks_hsc[4]);           //90
 
         System.out.println("----------------------------------------------------");
 
         boolean [] isMarried = {true, false, true, true};
         for (int i = 0; i < isMarried.length; i++) {
-            System.out.println(i + " -> " + isMarried[i]);
+            System.out.println(i + " -> " + isMarried[i]);      // T,F,T,T each on new line
 
 
         // String weekDays[] =
