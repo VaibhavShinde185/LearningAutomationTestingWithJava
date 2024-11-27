@@ -1,4 +1,4 @@
-package practiceArray;
+package practiceJava.practiceArray;
 
 import java.util.Scanner;
 //Taking user input and calculating Addition of the entered array element

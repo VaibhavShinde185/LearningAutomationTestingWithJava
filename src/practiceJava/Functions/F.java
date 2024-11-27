@@ -1,4 +1,4 @@
-package Functions;
+package practiceJava.Functions;
 
 public class F {
     // With Parameters and With Return Type

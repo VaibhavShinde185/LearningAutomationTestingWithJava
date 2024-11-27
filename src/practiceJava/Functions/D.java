@@ -1,8 +1,6 @@
-package Functions;
+package practiceJava.Functions;
 
 import java.util.Scanner;
-
-import static Functions.D.printSquare;
 
 public class D {
     // No Parameters, with Return Type

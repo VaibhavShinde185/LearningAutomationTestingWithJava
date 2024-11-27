@@ -1,4 +1,4 @@
-package typeCasting;
+package practiceJava.typeCasting;
 
 public class CastingBetweenPrimitiveTypes {
     public static void main(String[] args) {

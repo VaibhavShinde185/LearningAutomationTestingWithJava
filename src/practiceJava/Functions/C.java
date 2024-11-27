@@ -1,4 +1,4 @@
-package Functions;
+package practiceJava.Functions;
 
 public class C {
     // Create a function that accepts a person's name and age, then prints a welcome message like:

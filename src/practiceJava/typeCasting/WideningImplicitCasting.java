@@ -1,4 +1,4 @@
-package typeCasting;
+package practiceJava.typeCasting;
 
 public class WideningImplicitCasting {
     public static void main(String[] args) {

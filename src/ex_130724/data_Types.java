@@ -10,7 +10,7 @@ public class data_Types {
         //Floating - float, double
         // eg. we cant store a 128 in byte
         byte a = (byte) 128;
-        //Non Primitive Data Type - string, array, class, objects, enum
+        //Non Primitive Data Type - practiceJava.string, array, class, objects, enum
 
         //Constants
 

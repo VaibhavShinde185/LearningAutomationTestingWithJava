@@ -1,10 +1,10 @@
-package Functions;
+package practiceJava.Functions;
 
 import java.util.Scanner;
 
 public class E {
     // No Parameters, with Return Type
-    // Create a function that returns your favorite programming language as a string.
+    // Create a function that returns your favorite programming language as a practiceJava.string.
 
     public static void main(String[] args) {
         System.out.println("Your favourite programming language is " + lang());

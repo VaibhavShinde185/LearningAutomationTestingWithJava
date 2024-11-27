@@ -56,7 +56,7 @@ public class Lab088 {
                 System.out.println(user_input + " is a consonant");
             }
         } else {
-            System.out.println("You entered a string");
+            System.out.println("You entered a practiceJava.string");
         }
 
         sc.close();

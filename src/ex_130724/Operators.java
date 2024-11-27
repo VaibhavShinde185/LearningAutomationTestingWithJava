@@ -7,7 +7,7 @@ public class Operators {
         double result=c%d;
         System.out.println(result);
 
-        //Operators
+        //practiceJava.Operators
         int age = 65; // 10000001 -> switch off/ on
         // = Assignment Operator - Assign the value literal to the ref of data type
 
@@ -32,7 +32,7 @@ public class Operators {
         String lastname = "SHINDE";
         System.out.println(firstname + "\n" + lastname);
 
-        //Compound Assignment Operators: += , -=, /=, *= . %=, += ->
+        //Compound Assignment practiceJava.Operators: += , -=, /=, *= . %=, += ->
         a = 10;
 
         a+=10; // a = a+10   = 20
@@ -40,7 +40,7 @@ public class Operators {
         a/=10; // a = a/10   = 1
         a*=10; // a = a*10   = 10
 
-        //Relational Operators -> boolean (true or false), >, < >=,<=, == , != ( ! = )
+        //Relational practiceJava.Operators -> boolean (true or false), >, < >=,<=, == , != ( ! = )
         a = 10;
         b = 20;
         int sum = a+b; // operand a, b , operator =, +

@@ -1,4 +1,4 @@
-package Functions;
+package practiceJava.Functions;
 
 public class type3 {
     public static void main(String[] args) {

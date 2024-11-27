@@ -1,4 +1,4 @@
-package typeCasting;
+package practiceJava.typeCasting;
 
 public class TypeCastingwithDivision {
     public static void main(String[] args) {

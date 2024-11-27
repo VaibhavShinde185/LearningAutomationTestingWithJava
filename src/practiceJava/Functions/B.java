@@ -1,4 +1,4 @@
-package Functions;
+package practiceJava.Functions;
 
 public class B {
     // Write a function that takes two numbers as parameters and prints their difference.   -- With Parameters, No Return Type --

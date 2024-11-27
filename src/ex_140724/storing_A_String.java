@@ -50,7 +50,7 @@ public class storing_A_String {
         String org = "The Testing Academy"; // SCP
         String org1 = "The Testing Academy"; // SCP
 
-        //new keyword explicitly creates a new String object in the heap memory, even if an identical string exists in the SCP.
+        //new keyword explicitly creates a new String object in the heap memory, even if an identical practiceJava.string exists in the SCP.
         String org2 = new String("The Testing Academy"); // Heap area (OA)
 
 //        System.out.println(org == org1); // Check for the Ref
