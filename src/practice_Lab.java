@@ -5,23 +5,18 @@ import java.util.Scanner;
 public class practice_Lab {
     public static void main(String[] args) {
 
-        int[][] array_2d = {
-                {78,85,96},
-                {86,89,82},
-                {66,60,69}
-        };
+        String str1 = "Vaibhav";
+        String str2 = "";
+        char ch;
 
-        for (int i = 0; i < array_2d.length; i++) {
-            for (int j = 0; j < array_2d[i].length; j++) {
-                System.out.print(array_2d[i][j]);
-                System.out.print("\t");
-            }
-            System.out.print("\n");
+        System.out.println("Original String: " + str1);
+
+        for (int i = 0; i < str1.length(); i++) {
+            ch = str1.charAt(i);
+            str2 = ch+str2;
         }
-        
-
-
-    }
+        System.out.print("Reversed String: " + str2);
+        }
     }
 
 
