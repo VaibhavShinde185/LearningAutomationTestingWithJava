@@ -32,7 +32,6 @@ public class Palindrome {
             System.out.println("\"" + original + "\" is not a palindrome.");
         }
 
-
     }
 
 }

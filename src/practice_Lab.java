@@ -5,17 +5,21 @@ import java.util.Scanner;
 public class practice_Lab {
     public static void main(String[] args) {
 
-        String str1 = "Vaibhav";
-        String str2 = "";
-        char ch;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a String: ");
+        String original = sc.nextLine();
 
-        System.out.println("Original String: " + str1);
+        String sanitized = original.replaceAll("\\s+","").toLowerCase();
 
-        for (int i = 0; i < str1.length(); i++) {
-            ch = str1.charAt(i);
-            str2 = ch+str2;
+        String reversed = "";
+        for (int i = sanitized.length()-1; i >= 0 ; i--) {
+            reversed += sanitized.charAt(i);
         }
-        System.out.print("Reversed String: " + str2);
+        if (sanitized.equals(reversed)){
+            System.out.println("\" " + original + "\" is a palindrome. ");
+        } else {
+            System.out.println("\" " + original + "\" is not a palindrome. ");
+        }
         }
     }
 
