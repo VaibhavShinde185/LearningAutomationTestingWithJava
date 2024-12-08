@@ -5,34 +5,27 @@ import java.util.Scanner;
 public class practice_Lab {
     public static void main(String[] args) {
 
-        String str1 = "Hello";
-        String str2 = "";
-        char ch;
+    Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < str1.length(); i++) {
-            ch = str1.charAt(i);
-            str2 = ch+str2;
-            }
-        System.out.println("Reversed String: "+ str2);
-        System.out.println("---------------------------------------------------------------");
+    float marks[] = new float[5];
+        System.out.println(marks[0]);
+        System.out.println("---------------------------------------------");
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string: ");
-        String original = sc.nextLine();
+        System.out.println("Enter marks of subject 1: ");
+        marks[0] = sc.nextFloat();
 
-        String sanitized = original.replaceAll("\\s+","").toLowerCase();
+        System.out.println("Enter marks of subject 2: ");
+        marks[1] = sc.nextFloat();
 
-        String reversed = "";
-        for (int i = sanitized.length() - 1; i >= 0 ; i--) {
-            reversed += sanitized.charAt(i);
+        marks[2] = 93;
+        marks[3] = 94;
+        marks[4] = 95;
+
+        System.out.println("Array length is " + marks.length);
+        for (int i = 0; i < marks.length; i++) {
+            System.out.println("Marks of subject "+ (i+1) + " :" + marks[i]);
         }
-        if (sanitized.equals(reversed)){
-            System.out.println("\""+original+"\" it is pallindrome");
-        } else {
-            System.out.println("\""+original+"\" it is not pallindrome");
-
-        }
-
+            sc.close();
         }
     }
 

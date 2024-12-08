@@ -4,37 +4,19 @@ import java.util.Scanner;
 public class practice_Lab2 {
         public static void main(String[] args) {
 
-        String str1 = "Vaibhav";
-        String str2 = "";
-        char ch;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a student name ");
+        String name = sc.next();
 
-            System.out.println("Original String: " + str1);
-
-            for (int i = 0; i < str1.length(); i++) {
-                ch = str1.charAt(i);
-                str2 = ch+str2;
+        float marks[] = new float[5];
+            for (int i = 0; i < marks.length; i++) {
+                System.out.println("Enter marks of subject " + (i+1));
+                marks[i] = sc.nextFloat();
             }
-            System.out.println("Reversed String: "+ str2);
-            System.out.println("-------------------------------------------");
 
-            System.out.print("\n");
+            float avg = (marks[0]+marks[1]+marks[2]+marks[3]+marks[4])/5;
+            System.out.println("Average is " + avg);
 
-            Scanner sc = new Scanner(System.in);
-            System.out.print("Enter a string: ");
-            String original = sc.nextLine();
-
-            String sanitized = original.replaceAll("\\s+","").toLowerCase();
-            System.out.println("Sanitized string: "+sanitized);
-
-            String reversed = "";
-            for (int i = sanitized.length() - 1; i >= 0 ; i--) {
-                reversed += sanitized.charAt(i);
-            }
-            if(sanitized.equals(reversed)){
-                System.out.println("\""+ original + "\" it is a palindrome");
-            } else {
-                System.out.println("\""+ original + "\" it is not a palindrome");
-            }
         }
     }
 
