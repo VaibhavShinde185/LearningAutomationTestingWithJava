@@ -4,18 +4,19 @@ import java.util.Scanner;
 public class practice_Lab2 {
         public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a student name ");
-        String name = sc.next();
+        int[] marks = new int[3];
+            System.out.println(marks[0]);
+            System.out.println(marks[1]);
+            System.out.println(marks[2]);
 
-        float marks[] = new float[5];
+            Scanner sc = new Scanner(System.in);
+            marks[0] = sc.nextInt();
+            marks[1] = 92;
+            marks[2] = 93;
+
             for (int i = 0; i < marks.length; i++) {
-                System.out.println("Enter marks of subject " + (i+1));
-                marks[i] = sc.nextFloat();
+                System.out.println(i + ":" + marks[i]);
             }
-
-            float avg = (marks[0]+marks[1]+marks[2]+marks[3]+marks[4])/5;
-            System.out.println("Average is " + avg);
 
         }
     }
