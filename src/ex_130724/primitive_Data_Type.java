@@ -6,8 +6,8 @@ public class primitive_Data_Type {
         // data_type variable_name = variable_value(literal)
 
         // Data Type
-            // Primitive Data Type
-            // Non Primitive Data Type
+            // Primitive Data Type: Data type which can not broken further
+            // Non Primitive Data Type: Data ttype which can be broken
 
         //  boolean i.e true or false
         boolean is_married = true;
