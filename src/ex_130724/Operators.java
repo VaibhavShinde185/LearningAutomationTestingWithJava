@@ -1,5 +1,7 @@
 package ex_130724;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Operators {
     public static void main(String[] args) {
         double c=34;
@@ -7,9 +9,9 @@ public class Operators {
         double result=c%d;
         System.out.println(result);     //4.0
 
-        //practiceJava.Operators
         int age = 65; // 10000001 -> switch off/ on
         // = Assignment Operator - Assign the value literal to the ref of data type
+        // == Comparison Operator - Compare between two values and always returns true or false
 
         //Arithmetic Operator +,-,/,*,%
 
@@ -41,7 +43,7 @@ public class Operators {
         a*=10; // a = a*10   = 10
         System.out.println(a);      //10
 
-        //Relational practiceJava.Operators -> boolean (true or false), >, < >=,<=, == , != ( ! = )
+        //Relational practiceJava.Operators : >, <, >=,<=, == , != ( ! = )
         a = 10;
         b = 20;
         int sum = a+b; // operand a, b , operator =, +
@@ -62,7 +64,7 @@ public class Operators {
         System.out.println(result_m);   //10
         System.out.println("\n");
 
-        //Logical Operator - and, or
+        //Logical Operator - and, or, not
 
         //Boolean operator - true, false
 
@@ -82,8 +84,12 @@ public class Operators {
 
         // data_type variable_name(identifier) = variable _value(literals)
         // Unary = Only 1 operand, operator
-        //  age - operand, value - unary plus, = operator
-        //  lambo - operand, value - unary minus, = operator
+        //  age - operand, value =  unary plus, = operator
+        //  lambo - operand, value =  unary minus, = operator
+
+        //Unary Operator = one operand is required
+        //Binary Operator = two operand is required
+        //Ternary Operator = three operand is required
 
 
     }
