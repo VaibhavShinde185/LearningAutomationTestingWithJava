@@ -7,7 +7,7 @@ public class primitive_Data_Type {
 
         // Data Type
             // Primitive Data Type: Data type which can not broken further
-            // Non Primitive Data Type: Data ttype which can be broken
+            // Non Primitive Data Type: Data type which can be broken
 
         //  boolean i.e true or false
         boolean is_married = true;

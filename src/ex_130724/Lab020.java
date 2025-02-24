@@ -6,7 +6,8 @@ public class Lab020 {
         double age_a;
         age_a = 45;
         //. Local - within method
-        System.out.println( age);
+        System.out.printf("Your age is %d", age);
+        System.out.print("\n");
         System.out.println( age_a);
     }
 }

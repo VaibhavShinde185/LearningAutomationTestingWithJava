@@ -5,7 +5,7 @@ public class Operators {
         double c=34;
         double d=10;
         double result=c%d;
-        System.out.println(result);
+        System.out.println(result);     //4.0
 
         //practiceJava.Operators
         int age = 65; // 10000001 -> switch off/ on
@@ -15,17 +15,17 @@ public class Operators {
 
         int a = 10;
         int b = 23;
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
-        System.out.println(a%b); // Remainders
+        System.out.println(a+b);        //33
+        System.out.println(a-b);        //-13
+        System.out.println(a*b);        //230
+        System.out.println(a/b);        //0
+        System.out.println(a%b);        //10
 
         //Unary Operator
         age = +65;  //unary plus
         int lambo = -1; //unary minus
-        System.out.println(age);
-        System.out.println(lambo+2);
+        System.out.println(age);        //65
+        System.out.println(lambo+2);    //1
 
         //Concatination
         String firstname = "VAIBHAV";
@@ -39,6 +39,7 @@ public class Operators {
         a-=10; // a = a-10   = 10
         a/=10; // a = a/10   = 1
         a*=10; // a = a*10   = 10
+        System.out.println(a);      //10
 
         //Relational practiceJava.Operators -> boolean (true or false), >, < >=,<=, == , != ( ! = )
         a = 10;
@@ -51,14 +52,14 @@ public class Operators {
         int x = 10;
         int y = ++x; // x = x+1;
         // Exp = 11 , a = 11
-        System.out.println(x);
-        System.out.println(y);
+        System.out.println(x);      //10
+        System.out.println(y);      //11
 
         // POST - value is stored in the result and incremented later
         int m = 10;
         int result_m = m++;
-        System.out.println(m);
-        System.out.println(result_m);
+        System.out.println(m);      //10
+        System.out.println(result_m);   //10
         System.out.println("\n");
 
         //Logical Operator - and, or
@@ -78,8 +79,6 @@ public class Operators {
         // new operator - OOPs concept
         // instanceOf operator - OOPs concept
         // Bitwise operator - not important for automation testing
-
-
 
         // data_type variable_name(identifier) = variable _value(literals)
         // Unary = Only 1 operand, operator
