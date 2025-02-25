@@ -24,7 +24,9 @@ public class storing_A_String {
         s1 = "Amit";             // 2 , SCP
         s1 = "Dutta";            // 3 . SCP
         s1 = "Vaibhav";          // 4 . SCP
-        System.out.println(s1);                                 //Vaibhav
+        s1 = "Pramod";
+        // Here, total 4 strings are in SCP and that are Pramod, Amit, Dutta and Vaibhav. and at last s1 again pointed to the Pramod.
+        System.out.println(s1);                                 //Pramod
         System.out.println("\n");                               //new line
 
         String A = new String("Vaibhav");
@@ -39,7 +41,7 @@ public class storing_A_String {
 
         String str1="Hello ";
         String str2="Guys";
-        String str3=str1.concat(str2);
+        String str3=str1.concat(str2);          // Till here 3 strings are created in SCP and that are str1, str2 and str3
         System.out.println(str3);
         System.out.println("\n");
 
@@ -53,9 +55,9 @@ public class storing_A_String {
         //new keyword explicitly creates a new String object in the heap memory, even if an identical practiceJava.string exists in the SCP.
         String org2 = new String("The Testing Academy"); // Heap area (OA)
 
-//        System.out.println(org == org1); // Check for the Ref
-//        System.out.println(org.equals(org1)); // Check for the Content
-//        System.out.println(org == org2);
+        System.out.println(org == org1); // Check for the Ref memory location
+        System.out.println(org.equals(org1)); // Check for the Content
+        System.out.println(org == org2);    // Check for the Ref memory location
 
         System.out.println(org1 == org2); // Check for the Ref  - false, different objects
         System.out.println(org1.equals(org2)); // Check for the Content - true, same content
