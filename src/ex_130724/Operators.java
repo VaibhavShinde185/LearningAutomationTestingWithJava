@@ -33,6 +33,7 @@ public class Operators {
         String firstname = "VAIBHAV";
         String lastname = "SHINDE";
         System.out.println(firstname + "\n" + lastname);
+        System.out.println();
 
         //Compound Assignment practiceJava.Operators: += , -=, /=, *= . %=, += ->
         a = 10;
@@ -40,8 +41,9 @@ public class Operators {
         a+=10; // a = a+10   = 20
         a-=10; // a = a-10   = 10
         a/=10; // a = a/10   = 1
-        a*=10; // a = a*10   = 10
-        System.out.println(a);      //10
+        a*=9; // a = a*10   = 10
+        System.out.println(a);      //9
+        System.out.println();
 
         //Relational practiceJava.Operators : >, <, >=,<=, == , != ( ! = )
         a = 10;
@@ -52,15 +54,19 @@ public class Operators {
 
         // pre - increment ++operand - value is incremented first and then stored in the result.
         int x = 10;
+        System.out.println(x);      //10
+        System.out.println();
+
         int y = ++x; // x = x+1;
         // Exp = 11 , a = 11
-        System.out.println(x);      //10
+        System.out.println(x);      //11
         System.out.println(y);      //11
+        System.out.println();
 
         // POST - value is stored in the result and incremented later
         int m = 10;
         int result_m = m++;
-        System.out.println(m);      //10
+        System.out.println(m);      //11
         System.out.println(result_m);   //10
         System.out.println("\n");
 
