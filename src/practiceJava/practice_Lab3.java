@@ -1,18 +1,28 @@
 package practiceJava;
 
+import java.util.Scanner;
+
 public class practice_Lab3 {
     public static void main(String[] args) {
 
-       String name = "VAIBHAV";
-       String name2 = new String ("vaibhav Shinde");
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(name);
-        System.out.println(name.length());
-        System.out.println(name.toLowerCase());
-        System.out.println(name2.toUpperCase());
-        System.out.println(name2.length());
-        System.out.println(name.indexOf("I"));
-        System.out.println(name.charAt(1));
+        System.out.println("Enter a character, system will tell is it a vowel or consonant or a string");
+        var userInput = sc.next();
+        userInput = userInput.toLowerCase();
+
+        if (userInput.length() == 1){
+            char ch = userInput.charAt(0);
+
+            if ( ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
+                System.out.println("You have entered a vowel");
+            } else {
+                System.out.println("Consonant");
+            }
+
+        } else {
+            System.out.println("You have entered a string.");
+        }
 
 
     }

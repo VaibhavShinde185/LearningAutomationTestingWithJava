@@ -19,28 +19,37 @@ public class Lab084 {
 //
 //        System.out.println("Maximum number is " + Math.max(number1, number2));
 
-//        Scanner sc = new Scanner(System.in);
-//
-//        System.out.println("Enter a number1");
-//        int number1 = sc.nextInt();
-//
-//        System.out.println("Enter a number2");
-//        int number2 = sc.nextInt();
-//
-//        if (number1 > number2) {
-//            System.out.println("Maximum number is " + number1);
-//        } else {
-//            System.out.println("Maximum number is " + number2);
-//        }
+        Scanner sc = new Scanner(System.in);
 
-        Scanner sc = new Scanner (System.in);
-
-        System.out.println("Enter a number1:");
+        System.out.println("Enter a number1");
         int number1 = sc.nextInt();
-        System.out.println("Enter a number2:");
+
+        System.out.println("Enter a number2");
         int number2 = sc.nextInt();
 
-        int max = (number1 > number2) ? number1 : number2;
-        System.out.println(max + " is the maximum number.");
+        if (number1 > number2) {
+            System.out.println("Maximum number is " + number1);
+        } else {
+            System.out.println("Maximum number is " + number2);
+        }
+
+//        Scanner sc = new Scanner (System.in);
+//
+//        System.out.println("Enter a number1:");
+//        int number1 = sc.nextInt();
+//        System.out.println("Enter a number2:");
+//        int number2 = sc.nextInt();
+//
+//        int max = (number1 > number2) ? number1 : number2;
+//        System.out.println(max + " is the maximum number.");
+
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("Enter a 1st number: ");
+//        int num1 = sc.nextInt();
+//        System.out.println("Enter a 2nd number: ");
+//        int num2 = sc.nextInt();
+//
+//        System.out.println("Maximum number is "+ Math.max(num1, num2));
     }
 }

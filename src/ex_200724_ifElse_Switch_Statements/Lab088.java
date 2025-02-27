@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 public class Lab088 {
     public static void main(String[] args) {
-//       Scanner sc = new Scanner (System.in);
-//        System.out.println("Enter a character:");
-//        char user_input = sc.next().charAt(0);
-
+       Scanner sc = new Scanner (System.in);
+        System.out.println("Enter a character:");
+        char user_input = sc.next().charAt(0);
+//
 //        switch (user_input) {
 //            case 'a':
 //                System.out.println("Vowel");
@@ -32,32 +32,32 @@ public class Lab088 {
 //        }
 
     //    ----------------------------------
-//        switch (user_input){
-//            case 'a','e','i','o','u':
-//                System.out.println("vowel");
-//                break;
-//            default:
-//                System.out.println("consonant");
-//        }
+        switch (user_input){
+            case 'a','e','i','o','u':
+                System.out.println("vowel");
+                break;
+            default:
+                System.out.println("consonant");
+        }
 
     //    -----------------------------------
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a character:");
-        var user_input = sc.next();
-        user_input = user_input.toLowerCase();
-
-        if ( user_input.length() == 1 ) {
-        char ch = user_input.charAt(0);
-
-            if ( ch == 'a' || ch == 'e' || ch == 'i'  || ch == 'o' || ch == 'u') {
-                System.out.println(user_input + " is a vowel");
-            } else {
-                System.out.println(user_input + " is a consonant");
-            }
-        } else {
-            System.out.println("You entered a practiceJava.string");
-        }
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter a character:");
+//        var user_input = sc.next();
+//        user_input = user_input.toLowerCase();
+//
+//        if ( user_input.length() == 1 ) {
+//        char ch = user_input.charAt(0);
+//
+//            if ( ch == 'a' || ch == 'e' || ch == 'i'  || ch == 'o' || ch == 'u') {
+//                System.out.println(user_input + " is a vowel");
+//            } else {
+//                System.out.println(user_input + " is a consonant");
+//            }
+//        } else {
+//            System.out.println("You entered a string");
+//        }
 
         sc.close();
 
