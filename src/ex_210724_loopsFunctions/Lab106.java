@@ -13,7 +13,7 @@ public class Lab106 {
         for ( int i = 1; i <= 10; i++){
             b = a * i;
             {
-                System.out.println(b);
+                System.out.println(a + "*" + i + "=" + b);
             }
         }
     }
