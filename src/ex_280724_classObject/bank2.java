@@ -11,6 +11,8 @@ public class bank2 {
         System.out.println(b1.name);
         System.out.println(b2.name);
         System.out.println(b2.balance);
+        b1.withDraw();
+        b1.addBalance();
 
         b2.balance = 100;
         System.out.println(b2.balance);

@@ -6,18 +6,11 @@ import java.util.Scanner;
 public class practice_Lab3 {
     public static void main(String[] args) {
 
-     int[][] array2d = {
-             {34,1},
-             {34,2},
-             {34,3}
-     };
+        StringBuilder sbd = new StringBuilder("Vaibhav Shinde");
+        sbd.append(", wants to start his own business.");
 
-        for (int i = 0; i < array2d.length; i++) {
-            for (int j = 0; j < array2d[i].length; j++) {
-                System.out.print(array2d[i][j]);
-                System.out.print("\t");
-            }
-            System.out.println();
-        }
+        System.out.println(sbd);
+        System.out.println(sbd.reverse().toString() );
+
     }
 }
