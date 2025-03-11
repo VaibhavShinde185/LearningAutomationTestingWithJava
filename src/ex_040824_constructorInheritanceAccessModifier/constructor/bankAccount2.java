@@ -10,27 +10,27 @@ public class bankAccount2 {
 //        System.out.println(b1.bankCode);
 //        b1.printDetails();
 
-        bankAccount bICICI = new bankAccount("ICICI", 500000, "ICICN999");   //calling PC
+//        bankAccount bICICI = new bankAccount("ICICI", 500000, "ICICN999");
 //        System.out.println(bICICI.bankName);
 //        System.out.println(bICICI.balance);
 //        System.out.println(bICICI.bankCode);
-        bICICI.printDetails();
+//        bICICI.printDetails();
 
 
 
-//        Scanner sc = new Scanner(System.in);
-//
-//        System.out.println("Enter the bank name where you have your bank account " );
-//        String bankName = sc.next();
-//
-//        System.out.println("Tell me how much balance do you have in your account: " );
-//        int balance = sc.nextInt();
-//
-//        System.out.println("What is your bank code: " );
-//        String bankCode = sc.next();
-//
-//        bankAccount bUserInput = new bankAccount(bankName, balance, bankCode);  //calling PC with user input
-//
-//        bUserInput.printDetails();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the bank name where you have your bank account " );
+        String bankName = sc.next();
+
+        System.out.println("Tell me how much balance do you have in your account: " );
+        int balance = sc.nextInt();
+
+        System.out.println("What is your bank code: " );
+        String bankCode = sc.next();
+
+        bankAccount bUserInput = new bankAccount(bankName, balance, bankCode);  //calling PC with user input
+
+        bUserInput.printDetails();
     }
 }
