@@ -7,7 +7,7 @@ public class ATBPerson {
     //DC - Default Constructor
     ATBPerson() {
         name = "Alex";
-        //phoneNO = 986924799;
+        phoneNO = 986924799;
         System.out.println("Object is created! ");
     }
 

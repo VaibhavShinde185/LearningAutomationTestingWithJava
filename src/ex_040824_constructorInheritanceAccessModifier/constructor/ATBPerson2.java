@@ -5,6 +5,7 @@ public class ATBPerson2 {
         ATBPerson a1 = new ATBPerson();
         new ATBPerson();
         new ATBPerson();
+        System.out.println(a1.name);
         ATBPerson a2 = null;
     }
 }
