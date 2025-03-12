@@ -1,6 +1,9 @@
 package ex_100824.encapsulationPloymorphism.poly.methodOverloading;
 
 public class mathMain {
+
+    // Method overloading is also known as "Compile time polymorphism" or "Static Polymorphism"
+
     public static void main(String[] args) {
         mathOperations mathOperations = new mathOperations();
         int result = mathOperations.add(4,5);

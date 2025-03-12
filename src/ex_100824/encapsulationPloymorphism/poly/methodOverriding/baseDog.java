@@ -1,6 +1,9 @@
 package ex_100824.encapsulationPloymorphism.poly.methodOverriding;
 
 public class baseDog {
+
+    // Method Overriding is also known as Runtime Polymorphism or Dynamic Polymorphism
+
     public static void main(String[] args) {
         hound h = new hound();
         h.bark();
