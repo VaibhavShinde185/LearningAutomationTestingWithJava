@@ -6,6 +6,11 @@ public class eCapsulation2 {
 
         vwoLogin.setPassword("24861533759", false);
         System.out.println(vwoLogin.getPassword());
+
+        System.out.println(vwoLogin.getUserName());
+        vwoLogin.setUserName("Vaibhav185");
+
+        System.out.println(vwoLogin.getUserName());
     }
 }
 
