@@ -8,7 +8,7 @@ public class superKeyword3 {
     // this()
     // this.variableName
     public static void main(String[] args) {
-        new  Student1();
+        new Student1();
 
 
     }
@@ -35,10 +35,10 @@ class Student1 extends Person1{
     }
 
     Student1(){
-        super();
-        System.out.println(this.a);
-        //super("Pramod");
-        //super("pramod",12);
+        super();            // calling a default constructor of parent class
+//          this("abc");
+//        super("Pramod");
+//        super("pramod",12);
     }
 
 
