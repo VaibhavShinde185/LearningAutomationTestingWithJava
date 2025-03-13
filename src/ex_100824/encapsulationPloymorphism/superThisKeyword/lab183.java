@@ -12,7 +12,7 @@ class Car extends Vehicle {
 
     Car(){
         super(10); // Constructor Chaining  -> calling constructor of super class
-        // super();
+      //   super();
         System.out.println("DC Car - Statement within a constructor");
     }
 

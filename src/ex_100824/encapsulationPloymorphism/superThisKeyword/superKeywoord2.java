@@ -16,7 +16,7 @@ class student extends person{
         System.out.println("I am student!");
     }
     void display(){
-        //super.message();
+        super.message();
         this.message();
     }
 }
