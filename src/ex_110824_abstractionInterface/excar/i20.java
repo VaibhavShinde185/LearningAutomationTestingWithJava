@@ -31,6 +31,6 @@ public class i20 extends engine {
 
     @Override
     void openCar() {
-
+        System.out.println("Open a car");
     }
 }
