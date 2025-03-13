@@ -41,7 +41,7 @@ public class Operators {
         a+=10; // a = a+10   = 20
         a-=10; // a = a-10   = 10
         a/=10; // a = a/10   = 1
-        a*=9; // a = a*10   = 10
+        a*=9; // a = a*9    = 9
         System.out.println(a);      //9
         System.out.println();
 

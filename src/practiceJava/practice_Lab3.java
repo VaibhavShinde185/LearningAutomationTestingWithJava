@@ -6,48 +6,31 @@ import java.util.Scanner;
 public class practice_Lab3 {
     public static void main(String[] args) {
 
-    VWOLogin vwo = new VWOLogin("Jai", "123");
+        dog d = new dog();
+        d.bark();
 
-        System.out.println(vwo.getUserName());
-        System.out.println(vwo.getPassword());
+        hound h = new hound();
+        h.bark();
+        h.bike();
 
-        vwo.setUserName("Shetty");
-        System.out.println(vwo.getUserName());
-
-        vwo.setPassword("963", true);
-        System.out.println(vwo.getPassword());
-
+        dog abc = new hound();
+        abc.bark();
     }
 }
 
-class VWOLogin{
-    String userName;
-    String password;
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password, boolean isAuth) {
-        if(isAuth){
-        this.password = password;
-            System.out.println("Allowed to change the password");
-    } else {
-            System.out.println("not allowed to change the password");
-        }
-    }
-
-    public VWOLogin(String userName, String password) {
-        this.userName = userName;
-        this.password = password;
+class dog{
+    void bark(){
+        System.out.println("I am dog, I will bark.");
     }
 }
 
+class hound extends dog {
+    void bark(){
+        System.out.println("I am hound, i will bark and bite as well.");
+    }
+
+    void bike(){
+        System.out.println("I can sit on bike too.");
+    }
+
+}
