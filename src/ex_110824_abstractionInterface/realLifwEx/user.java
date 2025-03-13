@@ -14,5 +14,12 @@ public class user {
         f.closeBrowser("xxx");
         f.takeScreenShot();
 
+        System.out.println("\n");
+
+        edge e = new edge();
+        e.openBrowser();
+        e.closeBrowser("k");
+        e.takeScreenShot();
+
     }
 }
