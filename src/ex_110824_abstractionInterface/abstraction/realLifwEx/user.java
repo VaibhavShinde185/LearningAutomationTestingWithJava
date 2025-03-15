@@ -1,4 +1,4 @@
-package ex_110824_abstractionInterface.realLifwEx;
+package ex_110824_abstractionInterface.abstraction.realLifwEx;
 
 public class user {
     public static void main(String[] args) {

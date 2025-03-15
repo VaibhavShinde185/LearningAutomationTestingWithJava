@@ -1,4 +1,4 @@
-package ex_110824_abstractionInterface.exloan;
+package ex_110824_abstractionInterface.abstraction.exloan;
 
 public class fatherSonLoan {
     public static void main(String[] args) {

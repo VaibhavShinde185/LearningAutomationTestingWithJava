@@ -1,4 +1,4 @@
-package ex_110824_abstractionInterface.exloan;
+package ex_110824_abstractionInterface.abstraction.exloan;
 
 abstract class father {
     abstract void loan50K();
