@@ -8,6 +8,7 @@ public class Lab020 {
         //. Local - within method
         System.out.printf("Your age is %d", age);
         System.out.print("\n");
-        System.out.println( age_a);
+        System.out.printf( "%f", age_a);
+
     }
 }

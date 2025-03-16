@@ -5,6 +5,8 @@ public class lab200 {
         APIAutomation a = new APIAutomation();
         // SIB - call 1 time
         // IIB - when object is created.
+        APIAutomation b = new APIAutomation();
+
     }
 }
 
