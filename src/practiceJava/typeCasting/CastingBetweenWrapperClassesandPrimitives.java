@@ -5,7 +5,7 @@ public class CastingBetweenWrapperClassesandPrimitives {
 
         // Demonstrates boxing and unboxing.
 
-        Integer intObj = 50;  // Boxing
+        Integer intObj = 50;  // Auto Boxing
         int intVal = intObj;  // Unboxing
 
         Double doubleObj = 25.67;  // Boxing
@@ -15,6 +15,7 @@ public class CastingBetweenWrapperClassesandPrimitives {
         System.out.println("Unboxed integer: " + intVal);
         System.out.println("Double object: " + doubleObj);
         System.out.println("Unboxed double: " + doubleVal);
+
 
     }
 }
