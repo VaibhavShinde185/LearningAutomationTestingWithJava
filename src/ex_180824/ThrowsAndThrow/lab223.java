@@ -1,4 +1,4 @@
-package ex_180824;
+package ex_180824.ThrowsAndThrow;
 
 import java.util.Scanner;
 
