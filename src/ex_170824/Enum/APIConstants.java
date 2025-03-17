@@ -14,4 +14,5 @@ public enum APIConstants {
     public String getValue() {
         return name;
     }
+
 }

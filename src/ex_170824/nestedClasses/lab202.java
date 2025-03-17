@@ -20,7 +20,7 @@ class Car {
 
     // Method
     void drive() {
-        System.out.println("You can driver Car");
+        System.out.println("You can drive a Car");
     }
 
     class GearBox {

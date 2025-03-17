@@ -18,6 +18,7 @@ public class lab210 {
             System.out.println("c");
         } catch (Exception e) {
             System.out.println("Error / by zero");
+//            e.printStackTrace();
         }
         System.out.println("End of program");
     }

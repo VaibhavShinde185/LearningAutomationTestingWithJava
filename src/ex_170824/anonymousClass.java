@@ -1,6 +1,6 @@
-package ex_170824.nestedClasses;
+package ex_170824;
 
-public class lab203 {
+public class anonymousClass {
     public static void main(String[] args) {
         // Anonymous Class
         ABC a = new ABC() {
