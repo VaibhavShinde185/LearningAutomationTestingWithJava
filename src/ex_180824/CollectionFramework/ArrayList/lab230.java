@@ -8,7 +8,7 @@ public class lab230 {
         List shopping_list = List.of("Milk","Bread","Butter","Cheese");
         System.out.println(shopping_list);
         System.out.println(shopping_list.size());
-//        shopping_list.add("Banana");
+//        shopping_list.add("Banana");      // we can not add when List.of is used
     }
 
 }

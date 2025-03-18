@@ -12,6 +12,7 @@ public class lab233 {
 //        marks.add(true);
 //        Collection -I
 //        Collections -C
+        // In this case we can not use primitive data type instead of <Integer>
 
 
     }

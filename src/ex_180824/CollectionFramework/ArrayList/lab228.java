@@ -26,6 +26,7 @@ public class lab228 {
         System.out.println(mylist2.contains("Hemalata")); // false
         String s1 = (String) mylist2.get(1);
         System.out.println(s1);
-
+        mylist2.add(999);
+        System.out.println(mylist2);
     }
 }

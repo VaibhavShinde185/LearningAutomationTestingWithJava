@@ -3,20 +3,23 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.sql.SQLOutput;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
+
 public class practice_Lab {
     public static void main(String[] args) {
 
-    Scanner sc = new Scanner(System.in);
-    int x = sc.nextInt();
+     List<Integer> it = new ArrayList<>();
 
-    if(x == 0){
-        throw new ArithmeticException("Enter a non 0 number");
-    }
+     it.add(6);
+     it.add(9);
+     it.add(3);
+     it.add(963);
 
-    int a = 10/ x;
-        System.out.println(a);
+     Iterator<Integer> a = it.iterator();
+     while(a.hasNext()){
+         System.out.println(a.next());
+     }
+
     }
 }
 
