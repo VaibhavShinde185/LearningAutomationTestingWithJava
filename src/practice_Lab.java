@@ -1,26 +1,23 @@
 import javax.sound.midi.Soundbank;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 public class practice_Lab {
     public static void main(String[] args) {
 
-        System.out.println("Start of the program");
-        int a = 0;
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
 
-        try {
-            int b = 10 / a;
-        } catch (Exception e) {
-            System.out.println("Value of a should not be 0");
-            e.getMessage();
-            throw new RuntimeException(e);
-        } finally {
-            System.out.println("I will be executed anyhow");
-        }
-
-        System.out.println("End of the program");
-
+    if(x == 0){
+        throw new ArithmeticException("Enter a non 0 number");
     }
+
+    int a = 10/ x;
+        System.out.println(a);
     }
+}
 
 
