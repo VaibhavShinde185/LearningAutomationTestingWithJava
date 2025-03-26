@@ -7,7 +7,7 @@ public class lab242 {
     public static void main(String[] args) {
         // List - > Duplicate Allows
         // Set -> Doesn't allow Duplicate
-        Set hs = new HashSet(); // Hashing mechanism to store the element, no order
+        Set hs = new HashSet(); // Hashing mechanism to store the element, no order that means store it randomly
         hs.add("Apple");
         hs.add("Orange");
         hs.add("WaterMelon");
