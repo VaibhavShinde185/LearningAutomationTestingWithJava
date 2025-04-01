@@ -11,5 +11,6 @@ public class G1 {
     public static void main(String[] args) {
         temp(96);
         temp(45.09);
+        temp("A");
     }
 }

@@ -1,15 +1,13 @@
-import java.lang.invoke.SwitchPoint;
-import java.util.Arrays;
-import java.util.Scanner;
+package practiceJava.string;
 
-public class practice_Lab2 {
+public class PalindromeSimpleLogic {
     public static void main(String[] args) {
 
-       String s1 = "Was it a car or a cat I saw";
-       String s2 = "";
-       char ch;
+        String s1 = "Was it a car or a cat I saw";
+        String s2 = "";
+        char ch;
 
-       String sanitized = s1.replaceAll("\\s", "").toLowerCase();
+        String sanitized = s1.replaceAll("\\s", "").toLowerCase();
 
         System.out.print("Original String: " + sanitized);
         System.out.print("\n");
@@ -29,4 +27,3 @@ public class practice_Lab2 {
         }
     }
 }
-

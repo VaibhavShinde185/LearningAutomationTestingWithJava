@@ -13,6 +13,7 @@ public class D {
         System.out.println(str2.charAt(0));     //H
         System.out.println(str2.concat(" - Learning String Functions"));
         System.out.println(str2.contains("Hello"));     //true
+        System.out.println("------------------------------------------------------------");
 
         String name = "Vaibhav";
         String name1 = new String("Vaibhav");

@@ -6,6 +6,7 @@ public class E {
         StringBuilder sb1 = new StringBuilder("hello");
         StringBuilder sb2 = new StringBuilder("hello");
 
+        System.out.println(sb1 == sb2);
         System.out.println(sb1.equals(sb2));        // false    - equals() method from the Object class checks if sb1 and sb2 are the exact same object in memory
         System.out.println(sb1.toString().equals(sb2.toString()));
 

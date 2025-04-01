@@ -17,10 +17,12 @@ public class C {
         StringBuffer stringBuffer = new StringBuffer("Pramod");
         // change the value of practiceJava.string - Buffer
         stringBuffer.append("Dutta"); //PramodDutta
-        stringBuffer.append("JI"); //PramodDutta
+        stringBuffer.append("JI"); //PramodDuttaJI
+        System.out.println(stringBuffer);
 
         StringBuilder stringBuilder = new StringBuilder("Amit");
         stringBuilder.append("Sharma");
+        System.out.println(stringBuilder);
         System.out.println("-----------------------------------------------------");
 
         StringBuilder sbd = new StringBuilder("Radha"); //not thread safe
