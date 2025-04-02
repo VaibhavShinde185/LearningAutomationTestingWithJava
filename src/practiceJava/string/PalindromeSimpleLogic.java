@@ -20,7 +20,7 @@ public class PalindromeSimpleLogic {
         System.out.print("Reversed String: " + s2);
         System.out.print("\n");
 
-        if(sanitized == s2){
+        if(sanitized.equals(s2)){
             System.out.println("It is a palindrome");
         } else {
             System.out.println("It is not a palindrome");
