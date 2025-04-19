@@ -4,6 +4,7 @@ public class eCapsulation2 {
     public static void main(String[] args) {
     VWOLogin1 vwoLogin = new VWOLogin1("John", "Password");
 
+        System.out.println(vwoLogin.getPassword());
         vwoLogin.setPassword("24861533759", false);
         System.out.println(vwoLogin.getPassword());
 

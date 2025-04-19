@@ -6,4 +6,9 @@ public class testCase1 extends baseTestCase {
         // here we will write the TC
         closeBrowser();
     }
+
+    public static void main(String[] args) {
+        testCase1 tc1 = new testCase1();
+        tc1.testCase();
+    }
 }

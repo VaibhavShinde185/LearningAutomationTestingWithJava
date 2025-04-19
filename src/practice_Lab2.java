@@ -5,14 +5,22 @@ import java.util.Scanner;
 public class practice_Lab2 {
     public static void main(String[] args) {
 
-        int a = 4;
-       int fact = 1;
+        String s1 = "Vaibhav";
+        System.out.println(s1);
+        System.out.println("-------------------------------------------");
 
-        for (int i = 1; i <= a ; i++) {
-            fact = fact* i;
-        }
+        StringBuffer sbf = new StringBuffer("Vaibhav");
+        sbf.append(" Shinde");
+        sbf.append(" Ji");
+        System.out.println(sbf);
+        System.out.println("----------------------------------------------");
 
-        System.out.println(fact);
+        StringBuilder sbd = new StringBuilder("Vaibhav ");
+        sbd.append("Vishnu ");
+        sbd.append("Shinde ");
+        System.out.println(sbd);
+        System.out.println("-------------------------------------------------");
+        System.out.println(sbd.reverse());
 
     }
 }
