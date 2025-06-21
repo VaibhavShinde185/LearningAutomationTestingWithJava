@@ -5,9 +5,13 @@ public class dog2 {
 
         dog dog1Ref = new dog();
         dog1Ref.name = "chow chow";
+        dog1Ref.eat();
+        dog1Ref.talk();
 
         dog dog2Ref = new dog();
         dog2Ref.name = "german shepherd";
+        dog2Ref.sleep();
+        dog2Ref.walk();
 
         // functions - perform a task , block of code
         // functions within the class are called -> methods?

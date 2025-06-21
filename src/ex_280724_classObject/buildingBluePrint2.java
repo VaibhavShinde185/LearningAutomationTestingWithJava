@@ -17,14 +17,21 @@ public class buildingBluePrint2 {
         dlf.name = "DLF Pvt Builder";
         dlf.noOfRooms = 100;
 
+        System.out.println("This is DLF builder.");
         dlf.useLift();
+        dlf.activities();
+        System.out.println("Rooms: " + dlf.noOfRooms);
+        System.out.println("------------------------------------------------------");
 
         buildingBluePrint prestige = new buildingBluePrint();
         prestige.name = "Prestige Pvt Builder";
-        prestige.noOfRooms = 100;
+        prestige.noOfRooms = 1000;
 
+        System.out.println("This is Prestige builder.");
+        prestige.useLift();
         prestige.activities();
-
+        System.out.println("Rooms: " + prestige.noOfRooms);
+        System.out.println("------------------------------------------------------");
 
     }
 }

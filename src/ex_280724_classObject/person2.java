@@ -18,10 +18,14 @@ public class person2 {
         // Real thing class -> Object
         p.name = "Amit";
         p.rollno = 1;
+        p.walk();
+        p.talk();
 
         person p2 = new person();
         // Real thing class -> Object
         p2.name = "Pramod";
         p2.rollno = 2;
+        p2.sleep();
+        p2.read();
     }
 }
