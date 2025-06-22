@@ -6,4 +6,3 @@ public class son extends father {
     }
 }
 
-//extends father
