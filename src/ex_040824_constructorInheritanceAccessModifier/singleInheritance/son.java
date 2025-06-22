@@ -5,3 +5,5 @@ public class son extends father {
         System.out.println("3 BHK ");
     }
 }
+
+//extends father

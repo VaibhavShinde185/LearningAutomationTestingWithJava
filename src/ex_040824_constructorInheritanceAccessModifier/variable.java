@@ -17,11 +17,11 @@ public class variable {
 
     public static void main(String[] args) {
         variable v = new variable();
-        System.out.print("Printing the local variable.");
+        System.out.print("Printing the local variable. - it is f1 function");
         System.out.println();
         v.f1();
         System.out.println("-----------------------------------------------------");
-        System.out.print("Printing the instance variable");
+        System.out.print("Printing the instance variable. - it is f2 function");
         System.out.println();
         v.f2();
     }
