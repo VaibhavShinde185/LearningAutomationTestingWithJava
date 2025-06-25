@@ -3,28 +3,24 @@ import java.util.Scanner;
 public class practice_Lab3 {
     public static void main(String[] args) {
 
-        practice_Lab2 abc = new practice_Lab2();
-        abc.printDetails();
-        System.out.println("--------------------------------------------------------------------------");
+        System.out.println("Main Starts");
 
-        practice_Lab2 pqr = new practice_Lab2("ICICI", "icicn003", 3333);
-        pqr.printDetails();
-        System.out.println("---------------------------------------------------------------------------");
+        // Accessing static variable directly via class
+        System.out.println("Course Name: " + practice_Lab2.courseName);
 
-        System.out.println("Taking user input and printing their bank name, IFSC code and bank balance!");
-        Scanner sc = new Scanner(System.in);
+        // Calling static method directly
+        practice_Lab2.printCourseInfo();
 
-        System.out.print("Enter bank name: ");
-        String bankName = sc.next();
+        // Creating first object
+        practice_Lab2 c1 = new practice_Lab2("Vaibhav");
+        System.out.println("Student Name: " + c1.getName());
 
-        System.out.print("Enter IFSC code: ");
-        String ifscCode = sc.next();
+        // Creating second object
+        practice_Lab2 c2 = new practice_Lab2("Amit");
+        System.out.println("Student Name: " + c2.getName());
 
-        System.out.print("Enter bank balance: ");
-        int bankBalance = sc.nextInt();
-
-        practice_Lab2 userInput = new practice_Lab2(bankName, ifscCode, bankBalance);
-        userInput.printDetails();
+        // Calling static nested class
+        practice_Lab2.Helper.showHelp();
 
     }
 }

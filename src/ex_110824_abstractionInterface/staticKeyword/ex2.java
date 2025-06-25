@@ -1,9 +1,6 @@
-import javax.sound.midi.Soundbank;
-import java.lang.invoke.SwitchPoint;
-import java.util.Arrays;
-import java.util.Scanner;
+package ex_110824_abstractionInterface.staticKeyword;
 
-public class practice_Lab2 {
+public class ex2 {
 
     // 1. Static variable
     static String courseName = "Automation Bootcamp";
@@ -22,7 +19,7 @@ public class practice_Lab2 {
     }
 
     // 5. Constructor
-    public practice_Lab2(String name) {
+    public ex2(String name) {
         this.name = name;
         System.out.println("Constructor: Course object created.");
     }
@@ -43,6 +40,7 @@ public class practice_Lab2 {
             System.out.println("Static Nested Class: Contact support@atb.com");
         }
     }
+
 
 
 }
