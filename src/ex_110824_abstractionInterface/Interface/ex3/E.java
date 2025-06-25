@@ -23,7 +23,8 @@ public interface E {
 
     
 //   void m4(){
-//       System.out.println("Not possible");
+//       System.out.println("Not possible - interface abstract method should not have concrete methods." +
+//               " It is only allowed with the default keyword.");
 //   }
 
 }
