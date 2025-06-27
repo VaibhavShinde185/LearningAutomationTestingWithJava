@@ -26,7 +26,7 @@ public class Bank {
     }
 
     public Integer add(Bank bankName){
-        if(!bankName.currency.equalsIgnoreCase("INR")){
+        if(!this.currency.equalsIgnoreCase("INR") || !bankName.currency.equalsIgnoreCase("INR")){
             // throw exception that it is not supported - USD, gBP + INR
             try {
                 throw new Exception("Currency Doesn't Match!");

@@ -1,48 +1,29 @@
+import ex_180824.ThrowsAndThrow.Bank;
+
 import javax.sound.midi.Soundbank;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.lang.invoke.SwitchPoint;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class practice_Lab2 {
-
-    // 1. Static variable
-    static String courseName = "Automation Bootcamp";
-
-    // 2. Instance variable
-    private String name;
-
-    // 3. Static Block
-    static {
-        System.out.println("Static Block: Class is loading...");
+    public static void main(String[] args) {
+        extracted();
     }
 
-    // 4. Instance Initialization Block (IIB)
-    {
-        System.out.println("IIB Block: Before constructor logic...");
+    public static void extracted(){
+        extracted1();
     }
 
-    // 5. Constructor
-    public practice_Lab2(String name) {
-        this.name = name;
-        System.out.println("Constructor: Course object created.");
-    }
-
-    // 6. Getter for name
-    public String getName() {
-        return name;
-    }
-
-    // 7. Static Method
-    public static void printCourseInfo() {
-        System.out.println("Static Method: Welcome to " + courseName);
-    }
-
-    // 8. Static Nested Class
-    static class Helper {
-        static void showHelp() {
-            System.out.println("Static Nested Class: Contact support@atb.com");
+    public static void extracted1() {
+        try {
+            Integer[] i = new Integer[2];
+            System.out.println(i[3]);
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace()  );
         }
     }
-
 
 }
