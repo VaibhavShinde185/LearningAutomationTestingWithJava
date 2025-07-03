@@ -22,7 +22,7 @@ public class lab238 {
         System.out.println(arrayList);
 //         Collections.sort(arrayList); // Comparable
 //        Collections.sort(arrayList, new SortByID());
-//        Collections.sort(arrayList, new SortByName());
+        Collections.sort(arrayList, new SortByName());
 //        Collections.sort(arrayList, new SortByIDDesc());
 //        Collections.sort(arrayList, new SortByNameDesc());
         System.out.println(arrayList);
@@ -31,12 +31,12 @@ public class lab238 {
     }
 }
 
-//class SortByName implements Comparator<Student> {
-//    @Override
-//    public int compare(Student o1, Student o2) {
-//        return o1.getName().compareTo(o2.getName());
-//    }
-//}
+class SortByName implements Comparator<Student> {
+    @Override
+    public int compare(Student o1, Student o2) {
+        return o1.getName().compareTo(o2.getName());
+    }
+}
 ////
 //class SortByNameDesc implements Comparator<Student> {
 //    @Override
@@ -45,12 +45,12 @@ public class lab238 {
 //    }
 //}
 ////
-//class SortByID implements Comparator<Student> {
-//    @Override
-//    public int compare(Student o1, Student o2) {
-//        return Integer.compare(o1.getId(), o2.getId());
-//    }
-//}
+class SortByID implements Comparator<Student> {
+    @Override
+    public int compare(Student o1, Student o2) {
+        return Integer.compare(o1.getId(), o2.getId());
+    }
+}
 ////
 //class SortByIDDesc implements Comparator<Student> {
 //    @Override
@@ -99,7 +99,7 @@ class Student {
 //    public int compareTo(Student another) {
 //        return Integer.compare(this.id, another.id);
 //    }
-//
+
 //    @Override
 //    public int compareTo(Student another) {
 //        return CharSequence.compare(this.name, another.name);

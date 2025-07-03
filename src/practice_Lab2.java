@@ -5,25 +5,28 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.lang.invoke.SwitchPoint;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class practice_Lab2 {
     public static void main(String[] args) {
-        extracted();
-    }
 
-    public static void extracted(){
-        extracted1();
-    }
 
-    public static void extracted1() {
-        try {
-            Integer[] i = new Integer[2];
-            System.out.println(i[3]);
-        } catch (Exception e) {
-            System.out.println(e.fillInStackTrace()  );
-        }
-    }
+        Stack s = new Stack();
+        s.push("Vaibhav");
+        s.push("Viraj");
+        s.push("VVVVVV");
+        s.push("BMC");
+        s.push("AMC");
+        s.push("MOI");
 
+        System.out.println(s);
+        System.out.println(s.peek());
+        System.out.println(s.pop());
+        System.out.println(s);
+        System.out.println(s.push("AMC"));
+        System.out.println(s);
+
+
+
+    }
 }

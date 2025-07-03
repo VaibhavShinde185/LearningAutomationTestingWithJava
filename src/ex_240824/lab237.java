@@ -14,8 +14,9 @@ public class lab237 {
         s.add("Viraj");
         System.out.println(s);
         System.out.println(s.peek());       //It shows last added item
+        System.out.println("------------------------");
         System.out.println(s.pop());        //removes last added item
-
+        System.out.println("------------------------");
         System.out.println(s);
 
     }
